@@ -1,0 +1,14 @@
+        xx = evt.getX();
+        xy = evt.getY();
+        
+        // Mouse Pressed Event
+        
+        int x = evt.getXOnScreen();
+        int y = evt.getYOnScreen();
+        LoginHome.this.setLocation(x - xx, y - xy); 
+        
+        // Drag and Save Location of the Tab
+        
+        int xx,xy;
+        
+        // Declare on public class
