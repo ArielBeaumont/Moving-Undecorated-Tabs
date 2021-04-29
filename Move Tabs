@@ -7,7 +7,7 @@
         int y = evt.getYOnScreen();
         LoginHome.this.setLocation(x - xx, y - xy); 
         
-        // Drag and Save Location of the Tab
+        // Drag and Save Location of the Tab also Change 'LoginHome' to Your Class Name
         
         int xx,xy;
         
